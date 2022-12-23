@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap");
+
+:root {
+  --mainColor: #272b30;
+  --secColor: #3f86c3;
+}
+
+.navbar {
+  background-color: var(--mainColor);
+  color: white;
+  box-shadow: 0px 5px 5px black;
+}
+.navbar-brand {
+  color: white;
+  font-family: "Xanh Mono", monospace;
+  font-style: italic;
+}
+.navbar-brand img {
+  width: 70px;
+}
+.registerCard {
+  background-color: var(--mainColor);
+}
+.right-card {
+  background-color: #32383e;
+}
+.form-control {
+  /* outline: none; */
+  border: none;
+  color: white;
+}
+.validation-strip {
+  display: inline-block;
+  height: 3px;
+  background-color: rgb(255, 101, 101);
+  display: none;
+}
+.hrLine {
+  height: 1px;
+  margin-top: 1rem;
+  background-color: #686868;
+  margin-bottom: 1rem;
+}
+img[alt="Game Img"] {
+  height: 100%;
+}
+.pointer {
+  cursor: pointer;
+}
+.fa.fa-spinner.fa-spin {
+  color: var(--secColor);
+  font-size: 1.5rem;
+}
+.hero {
+  background-color: #1c1e22;
+  background-image: url("./imgs/paladins-b44d33d6e7ee1ba8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card {
+  background-color: #32383e;
+  box-shadow: 0px 0px 10px var(--secColor);
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  box-shadow: 0px 0px 20px var(--secColor);
+}
+.homeGames {
+  background-color: #272b30;
+}
+
+.gameDetails {
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.overLay {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(45, 41, 45, 0.9),
+    rgba(44, 42, 46, 0.9),
+    #2c2b2f,
+    #2b2c30,
+    #2b2d30
+  );
+}
+.allGames {
+  min-height: 100vh;
+}
